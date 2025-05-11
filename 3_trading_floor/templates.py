@@ -17,7 +17,6 @@ Take time to make multiple searches to get a comprehensive overview, and then su
 If the web search tool raises an error due to rate limits, then use your other tool that fetches web pages instead.
 
 Important: making use of your knowledge graph to retrieve and store information on companies, websites and market conditions:
-
 Make use of your knowledge graph tools to store and recall entity information; use it to retrieve information that
 you have worked on previously, and store new information about companies, stocks and market conditions.
 Also use it to store web addresses that you find interesting so you can check them later.

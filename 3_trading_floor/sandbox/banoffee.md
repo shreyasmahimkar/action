@@ -2,45 +2,33 @@
 
 ## Ingredients
 - **For the pastry:**  
-  - Butter 
-  - Flour 
-  - Egg yolk 
-  - Sugar
-  - Cold water  
+  - Butter  
+  - Flour  
+  - Egg yolk  
+  - Sugar  
+  - Very cold water  
 
 - **For the filling:**  
-  - Caramel  
-  - Bananas  
-  - Double cream 
-  - Dark chocolate (for garnish)
+  - Caramel (half for the base, half for layering)  
+  - Bananas (sliced)  
+  - Whipped cream  
+  - Dark chocolate (for garnish)  
 
 ## Method
-
-### Step 1
 1. **Make the pastry case:**  
-   - Combine butter and flour in a food processor until it resembles breadcrumbs.  
-   - Add egg yolk and sugar, pulse to mix.  
-   - Gradually add cold water until the dough starts to come together.  
+   - In a food processor, pulse butter and flour until it resembles fresh breadcrumbs.  
+   - Add egg yolk and sugar, then pulse again. Gradually add very cold water until it forms a ball of dough.  
+   - Knead gently then wrap in cling film and chill in the fridge for 30 mins.
 
-### Step 2
-2. **Knead the dough:**  
-   - Remove from processor, knead gently into a smooth ball.  
-   - Wrap in cling film and chill for 30 mins.
+2. **Prepare for baking:**  
+   - Preheat the oven to 190C/170C/gas 4. Grease a 23cm loose-bottomed tart tin.  
+   - Roll out the pastry and line the tin, snipping excess pastry edge.  
+   - Line with baking parchment and weigh down with baking beans. Bake for 15 mins, then remove the paper and beans, brush with egg white, and bake for an additional 15-20 mins until golden. Cool completely.
 
-### Step 3
-3. **Bake the pastry:**  
-   - Preheat oven to 190C/170C/gas 4.  
-   - Roll out chilled pastry, line a 23cm tart tin, leaving excess pastry at the edges.  
-   - Line with baking parchment and weigh down with baking beans or uncooked rice.  
-   - Bake for 15 mins, then remove paper and beans. Brush with egg white, bake again for 15-20 mins until golden.  
-   - Cool completely (can be done a day ahead).
+3. **Assemble the pie:**  
+   - Spread half of the caramel on the cooled pastry case and layer sliced bananas on top.  
+   - Cover with the remaining caramel and chill in the fridge.
 
-### Step 4
-4. **Add the filling:**  
-   - Spread half of the caramel in the pastry case.  
-   - Layer with sliced bananas, cover with the rest of the caramel and refrigerate.
-
-### Step 5
-5. **Prepare the cream:**  
-   - Whip cream until thick and spoon over the tart.  
-   - Garnish with grated dark chocolate before serving.
+4. **Finish off:**  
+   - Whip the cream until thick and spoon over the tart.  
+   - Garnish with finely grated dark chocolate before serving.

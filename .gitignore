@@ -180,3 +180,6 @@ cython_debug/
 
 # Ignore Accounts database in capstone project
 3_trading_floor/accounts.db
+
+# Ignore memory databases
+3_trading_floor/memory/
