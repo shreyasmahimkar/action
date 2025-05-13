@@ -1,34 +1,52 @@
 # Banoffee Pie Recipe
 
-## Ingredients
-- **For the pastry:**  
-  - Butter  
-  - Flour  
-  - Egg yolk  
-  - Sugar  
-  - Very cold water  
+## Description
+A delicious and easy family favourite with buttery pastry and sweet dulce de leche. Serve with a generous dollop of whipped cream.
 
-- **For the filling:**  
-  - Caramel (half for the base, half for layering)  
-  - Bananas (sliced)  
-  - Whipped cream  
-  - Dark chocolate (for garnish)  
+## Serves
+8 - 10
+
+## Difficulty
+Easy
+
+## Prep Time
+30 mins
+
+## Cook Time
+30 mins + 35 mins chilling
+
+## Ingredients
+### For the pastry:
+- 100g chilled butter (plus extra for greasing)
+- 200g plain flour
+- 1 medium egg (separated)
+- 1 tbsp golden caster sugar
+
+### For the filling:
+- 4 sliced bananas
+- 394g caramel or dulce de leche
+- 300ml double cream
+- Dark chocolate (optional, for garnish)
 
 ## Method
-1. **Make the pastry case:**  
-   - In a food processor, pulse butter and flour until it resembles fresh breadcrumbs.  
-   - Add egg yolk and sugar, then pulse again. Gradually add very cold water until it forms a ball of dough.  
-   - Knead gently then wrap in cling film and chill in the fridge for 30 mins.
+1. **Make the Pastry Case:**  
+   In a food processor, pulse the butter and flour until resembling breadcrumbs. Add the egg yolk and sugar, then cold water until the dough comes together. Knead gently and chill for 30 mins.
 
-2. **Prepare for baking:**  
-   - Preheat the oven to 190C/170C/gas 4. Grease a 23cm loose-bottomed tart tin.  
-   - Roll out the pastry and line the tin, snipping excess pastry edge.  
-   - Line with baking parchment and weigh down with baking beans. Bake for 15 mins, then remove the paper and beans, brush with egg white, and bake for an additional 15-20 mins until golden. Cool completely.
+2. **Preheat Oven:**  
+   Heat oven to 190C/170C fan.
 
-3. **Assemble the pie:**  
-   - Spread half of the caramel on the cooled pastry case and layer sliced bananas on top.  
-   - Cover with the remaining caramel and chill in the fridge.
+3. **Line the Tart Tin:**  
+   Roll out pastry, line a greased 23cm tart tin, and snip excess pastry. Line with baking parchment and weights, bake for 15 mins, then brush with egg white and bake for another 15-20 mins.
 
-4. **Finish off:**  
-   - Whip the cream until thick and spoon over the tart.  
-   - Garnish with finely grated dark chocolate before serving.
+4. **Cool Pastry:**  
+   Let it cool completely.
+
+5. **Add Filling:**  
+   Spread half of the caramel in the pastry case, layer the banana slices, then add the remaining caramel. Chill.
+
+6. **Whip Cream:**  
+   Whip the cream until thick and spoon it over the tart. Garnish with grated dark chocolate if desired.
+
+## Notes
+- The pastry case can be made a day in advance.  
+- Best served fresh, but it can be kept in the fridge overnight.
