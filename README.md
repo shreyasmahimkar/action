@@ -8,6 +8,10 @@ _If you're looking at this in Cursor, please right click on the filename in the 
 
 This is the repo to accompany the live, hands-on workshop from Jon Krohn and Ed Donner at ODSC East in Boston.
 
+## Slides for the event
+
+..are [here](https://docs.google.com/presentation/d/1aZcqSZAyBsl1BUnqqWqWhIz1E2Vbc8tZWO5Ozy4qYEw/edit?usp=sharing)
+
 ## If you enjoy this event...
 
 Ed has a comprehensive, immersive 6 week course on Udemy that covers this material, along with LangGraph, AutoGen and tons more. Here it is, with a coupon for ODSC people! [The Complete Agentic AI Engineering Course](https://www.udemy.com/course/the-complete-agentic-ai-engineering-course/?couponCode=AGENTIC_AI)
