@@ -24,6 +24,14 @@ We are using the fantastic uv platform and setup should be relatively painless!
 - Mac people, yours are [here](setup/SETUP-mac.md)
 - Linux people, yours are [here](setup/SETUP-linux.md)
 
+### Then for CrewAI Setup:
+
+Windows PC users: you will need to have checked the "gotcha #4" at the top of the [SETUP-PC](setup/SETUP-PC.md) instructions -- installing Microsoft Build Tools.  
+Then, you will need to run this command in a Cursor Terminal in the project root directory in order to run the Crew commands:  
+`uv tool install crewai`   
+And in case you've used Crew before, it might be worth doing this to make sure you have the latest:  
+`uv tool upgrade crewai`  
+
 Any problems, please do contact Ed - I'm at ed@edwarddonner.com or on LinkedIn at https://www.linkedin.com/in/eddonner/
 
 ### Super useful resources
