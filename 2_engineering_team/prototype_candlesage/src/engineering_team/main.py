@@ -11,8 +11,10 @@ warnings.filterwarnings("ignore", category=SyntaxWarning, module="pysbd")
 os.makedirs('output', exist_ok=True)
 
 requirements = """
-You are going to design a simple web application for giving users a statistical and technical analysis of a stock.
-Mockup data for AAPL and Bitcoin, if you dont have the data, use the mockup data or mockup data yourself, Mock up the data for statistics, Machine learning , wherever you cannot find the data.
+You are going to design and implement a streamlit web application for giving users a statistical and technical analysis of a stock.
+Mockup data for AAPL and Bitcoin for past 365 days, if you dont have the data, 
+in the following format: date, open, high, low, close, volume 
+use the mockup data or mockup data yourself, Mock up the data for statistics, Machine learning , wherever you cannot find the data.
 Design a Landing page with the following features look at https://candlesage.streamlit.app/ for the design:
 1. Input Box to enter a stock/crypto currency symbol
 2. A button to submit the symbol
@@ -32,18 +34,23 @@ if you have access to acadia-analytics.app website, scrape the data from the web
     - Password: testpassword
 10. After login, show a dashboard with the following features:
     - on the right top corner, show a logout button with username and profile picture
-    - Rest of the page will have a sidebar with the following features:
+    - Rest of the page will have a sidebar with the following features which will be hidden when the user is not logged in:
+    - After login, the sidebar will be visible and the following features will be shown and the links will be active:
         - Home (Dashboard)
         - Analysis (Statistical and Technical Analysis)
-            - Have Hidden Markov Model for predicting the next state of the stock/crypto currency
-            - Have XGBoost model for predicting the next state of the stock/crypto currency
+            - Have Hidden Markov Model for predicting the next state of the stock/crypto currency, use hmmlearn for this task, code it. 
+            - Have XGBoost model for predicting the next state of the stock/crypto currency use skikit-learn for this task, code it.
         - News (News about the stock/crypto currency)
-        - Forecast (Time Series Forecast of the stock/crypto currency for next 7 days)
+        - Forecast (Time Series Forecast of the stock/crypto currency for next 7 days) - should have a nice chart to show the forecasted data with the actual data.
         - Backtest (Backtest the stock/crypto currency for the last X days)
         - AI chat (Chat with the stock/crypto currency)
         - Settings (User Settings)
         - Help (Help and Support)
+
+
 """
+
+
 module_name = "accounts.py"
 class_name = "Account"
 

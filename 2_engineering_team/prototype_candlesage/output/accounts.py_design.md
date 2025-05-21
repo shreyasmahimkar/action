@@ -1,81 +1,110 @@
 ```markdown
-# accounts.py Module Design
+# Python Module Design for Streamlit Web Application for Stock/Crypto Analysis
 
-## Overview
-The `accounts.py` module is designed to facilitate the backend logic required for a web application that provides statistical and technical analysis of stocks/cryptocurrencies. The module will provide mockup data for demonstration purposes and will have functionality to handle user actions like login, signup, and viewing analysis, forecasts, and news.
+This design outlines the classes and functions required for the Streamlit web application to perform statistical and technical analysis of stocks and cryptocurrencies. The application utilizes mock data for AAPL and Bitcoin, with user authentication through login/signup features.
 
-## Classes and Methods
+## Module Structure
 
-### Class: `Account`
-This class handles user-related activities such as login, signup, and loading user profile details.
+### 1. Accounts
 
-#### Methods:
-- `__init__(self, username: str = '', password: str = '')`
-  - Constructs an Account object with optional username and password.
+Handles login, signup, and user profile management.
+
+#### Functions:
+- **login(username: str, password: str) -> bool:**  
+  Authenticates a user based on provided credentials.
   
-- `signup(self, username: str, password: str) -> dict`
-  - Mock signup functionality that creates a user profile.
-  - Returns a mock user profile dictionary.
+- **signup(username: str, password: str, email: str) -> bool:**  
+  Registers a new user with mockup data.
+  
+- **get_user_profile(username: str) -> dict:**  
+  Retrieves the user profile for a logged-in user.
+  
+- **load_mock_user_data() -> None:**  
+  Loads mock user data for demo purposes.
 
-- `login(self, username: str, password: str) -> bool`
-  - Mock login function that checks credentials.
-  - Returns True if credentials match the mock account (`testuser`, `testpassword`).
+### 2. StockAnalysis
 
-- `get_user_profile(self, username: str) -> dict`
-  - Returns mock user profile details.
+Provides statistical and technical analysis of stocks and cryptocurrencies.
 
-### Class: `StockAnalysis`
-Handles data analysis for stocks and cryptocurrencies, including statistical and technical analysis.
+#### Functions:
+- **perform_statistical_analysis(symbol: str, data: pd.DataFrame) -> dict:**  
+  Conducts statistical analysis on the given stock/crypto data.
+  
+- **perform_technical_analysis(symbol: str, data: pd.DataFrame) -> dict:**  
+  Conducts technical analysis using indicators such as RSI, MACD, etc.
 
-#### Methods:
-- `get_statistical_analysis(self, symbol: str) -> dict`
-  - Returns a mock dictionary containing statistical analysis details.
+- **load_mock_stock_data() -> pd.DataFrame:**  
+  Loads mock stock data for AAPL and Bitcoin.
 
-- `get_technical_analysis(self, symbol: str) -> dict`
-  - Returns a mock dictionary containing technical analysis details.
+### 3. News
 
-### Class: `News`
-Fetches and handles news data for a given stock or cryptocurrency.
+Retrieves news related to a specified stock or cryptocurrency.
 
-#### Methods:
-- `get_news(self, symbol: str) -> list`
-  - Returns a mock list of news articles for the given symbol.
+#### Functions:
+- **get_news(symbol: str) -> List[dict]:**  
+  Fetches news articles related to the specified stock/crypto.
+  
+- **load_mock_news_data() -> List[dict]:**  
+  Loads mock news data for demo purposes.
 
-### Class: `Forecast`
-Handles time series forecasting for a stock or cryptocurrency.
+### 4. Forecast
 
-#### Methods:
-- `forecast_next_7_days(self, symbol: str) -> list`
-  - Returns a mock list representing the forecasted prices for the next 7 days.
+Provides a time series forecast for stocks or cryptocurrencies.
 
-### Class: `MachineLearningModels`
-Implements machine learning models to predict the next state of stocks/cryptocurrencies.
+#### Functions:
+- **forecast_next_week(symbol: str, data: pd.DataFrame) -> pd.DataFrame:**  
+  Predicts the stock/crypto trend for the next 7 days using time series analysis.
+  
+- **load_mock_forecast_data() -> pd.DataFrame:**  
+  Loads mock forecast data to simulate predictions.
 
-#### Methods:
-- `predict_with_hmm(self, symbol: str) -> str`
-  - Returns a mock prediction using a Hidden Markov Model.
+### 5. MachineLearningModels
 
-- `predict_with_xgboost(self, symbol: str) -> str`
-  - Returns a mock prediction using an XGBoost model.
+Includes machine learning models like Hidden Markov Model and XGBoost for stock prediction.
 
-### Class: `AIChat`
-Provides AI chat functionality about the stock or cryptocurrency.
+#### Functions:
+- **predict_with_hmm(symbol: str, data: pd.DataFrame) -> dict:**  
+  Uses a Hidden Markov Model to predict the next state of the stock/crypto.
+  
+- **predict_with_xgboost(symbol: str, data: pd.DataFrame) -> dict:**  
+  Uses XGBoost to predict the next state of the stock/crypto.
+  
+- **load_mock_ml_data() -> pd.DataFrame:**  
+  Loads mock data to demonstrate ML model predictions.
 
-#### Methods:
-- `chat_with_ai(self, symbol: str, question: str) -> str`
-  - Returns a mock response from an AI chat for a given question.
+### 6. AIChat
 
-### Helper Functions (Optional)
+A simple chatbot interface for users to interact about stocks/cryptos.
 
-- `mock_data_loader() -> dict`
-  - Loads all necessary mock data for the application.
+#### Functions:
+- **chat_with_user(input_text: str) -> str:**  
+  Handles basic AI chat interactions with the user.
+  
+- **load_mock_ai_data() -> None:**  
+  Sets up mock data for the AI chat interactions.
 
-### Integration Notes:
-- All classes must be integrated into a cohesive module.
-- Consider using dependency injection for ease of testing.
-- Focus on creating a seamless interaction between the UI components and the backend logic provided by these classes.
+### 7. MockDataLoader
 
-This design outlines a self-contained module with mock data integration that backend developers can further build upon to connect with real data sources.
+Central function to load all mock data for various functionalities.
+
+#### Functions:
+- **load_all_mock_data() -> dict:**  
+  Initializes all the mock data loaders to provide a cohesive data dataset for the application.
+
+## UI Components
+
+The UI is designed using Streamlit with the following components:
+
+- **Landing Page:**  
+  - Input Box for stock/crypto symbol
+  - Submit Button
+  - Sections for statistical analysis, technical analysis, news
+  - 7-day forecast section
+  - Top Right Buttons: Login/Signup, About, Contact
+
+- **Dashboard (Post-login):**  
+  - Sidebar with links to Home, Analysis, News, Forecast, Backtest, AI Chat, Settings, Help
+  - Logout Button
+
+This design offers a comprehensive approach to implementing the described web application with mock data processing and user interaction functionality.
 ```
-
-I have provided all necessary components, methods, and class structures to facilitate the construction of the backend logic as per the requirement. This should be comprehensive enough for the developer to implement effectively.
